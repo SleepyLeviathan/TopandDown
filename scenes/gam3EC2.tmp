@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://01ru81u88c2e"]
+
+[ext_resource type="PackedScene" uid="uid://yc5m5awh03we" path="res://scenes/player.tscn" id="1_6j2bi"]
+[ext_resource type="PackedScene" uid="uid://mlxr64giem5p" path="res://scenes/background.tscn" id="2_y3lsy"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_6j2bi")]
+position = Vector2(-10, 2)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="Background" parent="." instance=ExtResource("2_y3lsy")]
+
+[node name="Sprite2D" parent="Background/ParallaxLayer" index="0"]
+position = Vector2(-11.8333, -6.65626)
+scale = Vector2(0.598785, 0.598785)
+
+[editable path="Background"]

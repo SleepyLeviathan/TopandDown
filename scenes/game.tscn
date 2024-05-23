@@ -1,0 +1,33 @@
+[gd_scene load_steps=7 format=3 uid="uid://01ru81u88c2e"]
+
+[ext_resource type="PackedScene" uid="uid://yc5m5awh03we" path="res://scenes/player.tscn" id="1_6j2bi"]
+[ext_resource type="Texture2D" uid="uid://0864csujbmev" path="res://sprites/tiles/noedge.png" id="2_kskt5"]
+[ext_resource type="Texture2D" uid="uid://jxlqi4p54sr4" path="res://sprites/tiles/noleftedge.png" id="3_vxtkb"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_prybj"]
+texture = ExtResource("2_kskt5")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0gqo1"]
+texture = ExtResource("3_vxtkb")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_86ddd"]
+tile_size = Vector2i(64, 64)
+sources/6 = SubResource("TileSetAtlasSource_prybj")
+sources/7 = SubResource("TileSetAtlasSource_0gqo1")
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_6j2bi")]
+z_index = 1
+position = Vector2(-10, 2)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_86ddd")
+format = 2
+layer_0/tile_data = PackedInt32Array(196607, 6, 1610612736, 196606, 6, 1610612736, 131070, 6, 1610612736, 65534, 6, 1610612736, -2, 6, 1610612736, -1, 6, 1610612736, -65536, 6, 1610612736, -131072, 6, 1610612736, 65535, 6, 1610612736, 131071, 6, 1610612736, 0, 6, 1610612736, -65537, 6, 1610612736, -3, 6, 1610612736, 131072, 6, 1610612736, 65536, 6, 1610612736, 65537, 6, 1610612736, 1, 6, 1610612736, 131073, 6, 1610612736, -65535, 6, 1610612736, -131071, 6, 1610612736, -65538, 6, 1610612736, -65539, 6, 1610612736, 65533, 6, 1610612736, 131069, 6, 1610612736, 196605, 6, 1610612736)
