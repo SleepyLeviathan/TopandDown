@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://n7vk3v2rqx4y"]
+
+[ext_resource type="Texture2D" uid="uid://c8mvpitcqqxq" path="res://sprites/Grave.png" id="1_au2yh"]
+[ext_resource type="Script" path="res://scripts/grave.gd" id="1_dw05c"]
+
+[node name="Grave" type="Area2D"]
+script = ExtResource("1_dw05c")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_au2yh")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-13, -19, -7, -23, -1, -24, 10, -24, 16, -19, 19, -12, 21, -3, 22, 6, 24, 16, 30, 23, -3, 32, -9, 32, -23, 17)
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

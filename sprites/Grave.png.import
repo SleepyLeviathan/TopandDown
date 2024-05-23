@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwiym85sprudr"
-path="res://.godot/imported/nodownedge.png-8d1c7ccee6cce8b47b0983d58d0aac7d.ctex"
+uid="uid://c8mvpitcqqxq"
+path="res://.godot/imported/Grave.png-77547d27853514e3cf7dda8a4845eae3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tiles/nodownedge.png"
-dest_files=["res://.godot/imported/nodownedge.png-8d1c7ccee6cce8b47b0983d58d0aac7d.ctex"]
+source_file="res://sprites/Grave.png"
+dest_files=["res://.godot/imported/Grave.png-77547d27853514e3cf7dda8a4845eae3.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jxlqi4p54sr4"
-path="res://.godot/imported/noleftedge.png-dec0c8b9993b5b113286f3208dfc491e.ctex"
+uid="uid://brqeumfk7alnl"
+path="res://.godot/imported/weapontilt1.png-ab4796b67a98201b53467133afb05703.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tiles/noleftedge.png"
-dest_files=["res://.godot/imported/noleftedge.png-dec0c8b9993b5b113286f3208dfc491e.ctex"]
+source_file="res://sprites/weapon/weapontilt1.png"
+dest_files=["res://.godot/imported/weapontilt1.png-ab4796b67a98201b53467133afb05703.ctex"]
 
 [params]
 

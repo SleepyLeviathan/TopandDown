@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdvathvv1ebgv"
-path="res://.godot/imported/noupedge.png-583856054c68282e10be1f5443d977a3.ctex"
+uid="uid://daq1nwx38vmio"
+path="res://.godot/imported/weapon_idle.png-21b9970fb6388f76a63b01cd1e471116.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tiles/noupedge.png"
-dest_files=["res://.godot/imported/noupedge.png-583856054c68282e10be1f5443d977a3.ctex"]
+source_file="res://sprites/weapon/weapon_idle.png"
+dest_files=["res://.godot/imported/weapon_idle.png-21b9970fb6388f76a63b01cd1e471116.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy8s4a7gi23r0"
-path="res://.godot/imported/norightedge.png-a84cab29bafd83717347f975feaa0735.ctex"
+uid="uid://b305i8cwrwsc5"
+path="res://.godot/imported/weapontilt3.png-b1b4b32d16deba846e73102c1d9185d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tiles/norightedge.png"
-dest_files=["res://.godot/imported/norightedge.png-a84cab29bafd83717347f975feaa0735.ctex"]
+source_file="res://sprites/weapon/weapontilt3.png"
+dest_files=["res://.godot/imported/weapontilt3.png-b1b4b32d16deba846e73102c1d9185d9.ctex"]
 
 [params]
 

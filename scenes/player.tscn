@@ -11,7 +11,7 @@ script = ExtResource("1_pvkbk")
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D2"]
 position = Vector2(-18.8463, 16.6412)
 scale = Vector2(0.603207, 0.603207)
-polygon = PackedVector2Array(-11, 10, -14, 1, -15, -10, -12, -36, 1, -63, 21, -81, 41, -86, 56, -76, 66, -59, 70, -40, 74, -23, 72, 13, 66, 13, 52, 7, 46, 5, 34, 7, 28, 11, 16, 11, 1, 4)
+polygon = PackedVector2Array(-11, 10, -14, 1, -15, -10, -12, -36, 1, -63, 21.2967, -80.6377, 41.1903, -87.2689, 57.7684, -77.3221, 66, -59, 70, -40, 74, -23, 72, 13, 66, 13, 52, 7, 46, 5, 34, 7, 28, 11, 16, 11, 1, 4)
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(-5, 2)

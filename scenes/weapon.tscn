@@ -1,0 +1,61 @@
+[gd_scene load_steps=10 format=3 uid="uid://dkh1hosquvuka"]
+
+[ext_resource type="Script" path="res://scripts/weapon.gd" id="1_uc2pd"]
+[ext_resource type="Texture2D" uid="uid://daq1nwx38vmio" path="res://sprites/weapon/weapon_idle.png" id="1_vo4uq"]
+[ext_resource type="Texture2D" uid="uid://brqeumfk7alnl" path="res://sprites/weapon/weapontilt1.png" id="2_8oelv"]
+[ext_resource type="Texture2D" uid="uid://dpko5wbyhythw" path="res://sprites/weapon/weapontilt2.png" id="3_di84g"]
+[ext_resource type="Texture2D" uid="uid://b305i8cwrwsc5" path="res://sprites/weapon/weapontilt3.png" id="4_efokd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_755eh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vo4uq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8oelv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_di84g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_efokd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_di84g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8oelv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_vo4uq")
+}],
+"loop": false,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="Animation" id="Animation_hyawi"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_n6bkb"]
+resource_name = "sword_movement"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5usfq"]
+_data = {
+"RESET": SubResource("Animation_hyawi"),
+"sword_movement": SubResource("Animation_n6bkb")
+}
+
+[node name="Weapon" type="Node2D"]
+script = ExtResource("1_uc2pd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_755eh")
+frame = 6
+frame_progress = 1.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite2D"]
+libraries = {
+"": SubResource("AnimationLibrary_5usfq")
+}

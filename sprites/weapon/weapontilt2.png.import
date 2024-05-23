@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0864csujbmev"
-path="res://.godot/imported/noedge.png-63b0e65a68f5224c1e4b73d3ca9c07b4.ctex"
+uid="uid://dpko5wbyhythw"
+path="res://.godot/imported/weapontilt2.png-4567fb03dcdc554769cca1eeb4c5d364.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/tiles/noedge.png"
-dest_files=["res://.godot/imported/noedge.png-63b0e65a68f5224c1e4b73d3ca9c07b4.ctex"]
+source_file="res://sprites/weapon/weapontilt2.png"
+dest_files=["res://.godot/imported/weapontilt2.png-4567fb03dcdc554769cca1eeb4c5d364.ctex"]
 
 [params]
 
